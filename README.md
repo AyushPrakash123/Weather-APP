@@ -72,4 +72,4 @@ Rate Limiting: The OpenWeatherMap API has rate limits, which can affect multiple
 No Database: Currently, no historical data storage as the app does not use a database.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
