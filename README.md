@@ -2,6 +2,11 @@
 
 This project is a real-time weather monitoring application using the MERN stack. It fetches and displays weather data, including dominant weather conditions, temperature, and other metrics using data from the OpenWeatherMap API.
 
+## Deployed Application
+
+You can access the live version of this application here:
+- [Weather App - Deployed Link](https://weather-app-bay-alpha.vercel.app)
+
 ## Features
 
 - Displays real-time weather data using the OpenWeatherMap API.
@@ -31,30 +36,40 @@ This project is a real-time weather monitoring application using the MERN stack.
    cd weather-app
 
 Install dependencies:
+
+```bash
 npm install
+```
 
 Start the application:
+```bash
 npm run dev
+```
 
 Open the application in your browser at:
+```bash
 http://localhost:3000
+```
 
 Usage
-
 Enter a city name to fetch the latest weather data.
 View the dominant weather condition, along with min, max, and average temperatures.
 Refresh data as needed for updated weather information.
+
 Example
 City: New York
 Temperature Range: Min: 15°C, Max: 25°C, Avg: 20°C
 Dominant Weather: Clear Sky
+
 Design Choices
 React with Vite: Chosen for faster development and build process.
 Tailwind CSS: For quick styling and responsive design.
 OpenWeatherMap API: Provides reliable and real-time weather data.
-Vercel & Render Deployment: Ensures a seamless deployment experience for both frontend and backend.
+Vercel Deployment: Ensures a seamless deployment experience.
+
 Known Issues
 Rate Limiting: The OpenWeatherMap API has rate limits, which can affect multiple requests in a short period.
 No Database: Currently, no historical data storage as the app does not use a database.
+
 License
 This project is licensed under the MIT License.
