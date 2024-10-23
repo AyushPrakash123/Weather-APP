@@ -12,14 +12,14 @@ You can access the live version of this application here:
 - Displays real-time weather data using the OpenWeatherMap API.
 - Shows dominant weather conditions, minimum, maximum, and average temperatures.
 - User-friendly interface for searching and displaying weather information.
-- Frontend hosted on Vercel and backend on Render.
+- Hosted on Vercel.
 
 ## Technologies Used
 
 - **Frontend:** React, Tailwind CSS, Vite
 - **Backend:** Node.js, Express
 - **API:** OpenWeatherMap API for weather data.
-- **Deployment:** Vercel (Frontend), Render (Backend)
+- **Deployment:** Vercel
 
 ## Setup Instructions
 
@@ -57,8 +57,8 @@ View the dominant weather condition, along with min, max, and average temperatur
 Refresh data as needed for updated weather information.
 
 Example
-City: New York
-Temperature Range: Min: 15°C, Max: 25°C, Avg: 20°C
+City: Lucknow
+Temperature Range: Min: 28°C, Max: 33°C, Avg: 30°C
 Dominant Weather: Clear Sky
 
 Design Choices
